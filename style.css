@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+html,body,ul,li,ol,h1,h2,h3,h4,h5,h6 { margin: 0; padding: 0;}
+
+ul { list-style: none;}
+
+a { text-decoration: none; color: black; line-height: 1;}
+
+.logomenu > h1 { text-align: center;}
+
+.logomenu > h1 > a { line-height: 100px;}
+
+.mainmenu { width: 80%; margin: 10px auto;}
+
+.mainmenu > li > a { text-align: center; display: block; padding: 10px 20px; background-color: black; color: white;}
+
+.mainmenu > li > ul > li > a { padding: 10px 20px; text-align: center; display: block; font-size: .9rem;}
+
+.mainmenu > li > ul > li > a:hover { background-color: black; color: white;}
+
+.mainmenu > li:hover > ul { height: 100px; }
+
+.mainmenu > li > ul { height: 0; overflow: hidden; transition: all .4s;}
+
+#pop { left: 50%; top: 50%; transform: translate(-50%,-50%); background-color: white; border: 1px solid black; z-index: 1000000;}
+
+
+
+.rel { position:relative;}
+
+.abs { position: absolute;}
+
+.d-flex { display: flex;}
+
+.dnone { display: none;}
+
+.container { width: 1000px; }
+
+.w200 { width: 200px;}
+
+.h100 { height: 100px;}
+
+.w800 { width: 800px;}
+
+.dblock { display: block;}
